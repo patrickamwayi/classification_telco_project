@@ -35,8 +35,41 @@
 #### Data Dictionary
 
 
-
-
+        Column                                 Description                                                    Data type  
+---     ------                                 --------------                                                 -----  
+> - 0   payment_type_id                        Unique payment type id for customer                            Int  
+> - 1   internet_service_type_id               Unique internet service type id for customer                   int  
+> - 2   contract_type_id                       Unique contract type id for customer                           int  
+> - 3   senior_citizen                         1 if customer is senior citizen                                int  
+> - 4   tenure                                 Months of tenure as a customer                                 int  
+> - 5   monthly_charges                        Customer's monthly bill charges                                float
+> - 6   total_charges                          Customer's total bills                                         float
+> - 7   gender_encoded                         Yes for 1 if customer is female                                int  
+> - 8   partner_encoded                        Yes for 1 if customer is partner                               int  
+> - 9   dependents_encoded                     Yes for 1 if customer has dependents                           int  
+> - 10  phone_service_encoded                  Yes for 1 if customer has phone service                        int  
+> - 11  paperless_billing_encoded              Yes for 1 if customer has paperless billing                    int  
+> - 12  multiple_lines_No phone service        Yes for 1 if customer has multiple_lines but no phone service  int  
+> - 13  multiple_lines_Yes                     Yes for 1 if customer has multiple_lines                       int 
+> - 14  online_security_No internet service    1 if customer has internet but no online security              int  
+> - 15  online_security_Yes                    1 if customer has online security                              int  
+> - 16  online_backup_No internet service      1 if customer has online_backup but no internet service        int  
+> - 17  online_backup_Yes                      1 if customer has online_backup                                int  
+> - 18  device_protection_No internet service  1 if customer has internet but no device protection            int  
+> - 19  device_protection_Yes                  1 if customer has device protection                            int  
+> - 20  tech_support_No internet service       1 if customer has tech_support but no internet service         int  
+> - 21  tech_support_Yes                       1 if customer has tech_support                                 int  
+> - 22  streaming_tv_No internet service       1 if customer is streaming_tv but no internet service          int  
+> - 23  streaming_tv_Yes                       1 if customer is streaming_tv                                  int  
+> - 24  streaming_movies_No internet service   1 if customer is streaming_movies but no internet service      int  
+> - 25  streaming_movies_Yes                   1 if customer is streaming_movies                              int  
+> - 26  contract_type_One year                 1 if customer has contract_type_One year                       int  
+> - 27  contract_type_Two year                 1 if customer has contract_type_Two year                       int  
+> - 28  internet_service_type_Fiber optic      1 if customer has internet_service_type_Fiber optic            int  
+> - 29  internet_service_type_None             1 if customer has No internet_service_type                     int  
+> - 30  payment_type_Credit card (automatic)   1 if customer has automatic payment_type_Credit card           int  
+> - 31  payment_type_Electronic check          1 if customer has Electronic check payment_type                int  
+> - 32  payment_type_Mailed check              1 if customer has Mailed check payment_type                    int  
 
 
 <hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
